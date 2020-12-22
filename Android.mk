@@ -20,7 +20,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libts_detected_face_hal
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/lib/libts_detected_face_hal.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libts_detected_face_hal.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -31,7 +31,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libts_face_beautify_hal
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/lib/libts_face_beautify_hal.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libts_face_beautify_hal.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -43,7 +43,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqdMetaData
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/lib/libqdMetaData.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqdMetaData.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -56,7 +56,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqservice
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/lib/libqservice.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqservice.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -67,7 +67,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := android.hardware.bluetooth@1.0-impl-qti
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
+LOCAL_SRC_FILES := proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES

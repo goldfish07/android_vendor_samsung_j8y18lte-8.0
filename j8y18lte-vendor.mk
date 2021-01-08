@@ -1,6 +1,6 @@
 
 # For System
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/samsung/j8y18lte/proprietary/app,system/app)
+#PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/samsung/j8y18lte/proprietary/app,system/app)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/samsung/j8y18lte/proprietary/bin,system/bin)
 
